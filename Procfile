@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/m2e-wtp/*.jar com.foo.Main
+web: java $JAVA_OPTS -jar target/heroku-demo-0.0.1-SNAPSHOT.jar -Dserver.port=$PORT $JAR_OPTS
