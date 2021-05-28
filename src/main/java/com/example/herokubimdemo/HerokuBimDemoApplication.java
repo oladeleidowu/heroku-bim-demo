@@ -12,7 +12,7 @@ public class HerokuBimDemoApplication extends SpringBootServletInitializer {
 
 	@RequestMapping("/")
 	@ResponseBody
-	String index() {
+	String home() {
 		return "Hello there! I'm running.OK!";
 	}
 	public static void main(String[] args) {
